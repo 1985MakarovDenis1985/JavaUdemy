@@ -10,20 +10,18 @@ public class JavaUdemy {
     String engine;
     int speed;
 
-    int gaz(int spd){
-        speed += spd;
-        return speed;
-    };
-
-    int brakes(int brk){
-        speed -= brk;
-        return speed;
-    };
-
-    void show(){
-        System.out.println("color: " + color + " | engine: " + engine + " | speed: " + speed + "Mph");
-
-    }
+//    int gaz(int spd){
+//        speed += spd;
+//        return speed;
+//    };
+//    int brakes(int brk){
+//        speed -= brk;
+//        return speed;
+//    };
+//    void show(){
+//        System.out.println("color: " + color + " | engine: " + engine + " | speed: " + speed + "Mph");
+//
+//    }
 
 //    int sum(int a, int b, int c) {
 //        int res = a + b + c;
@@ -82,14 +80,14 @@ public class JavaUdemy {
 class Car {
     public static void main(String[] args) {
         JavaUdemy car = new JavaUdemy();
-        car.color = "green";
-        car.engine = "V8";
-        car.speed = 254;
-        car.show();
-        car.gaz(56);
-        car.show();
-        car.brakes(231);
-        car.show();
+//        car.color = "green";
+//        car.engine = "V8";
+//        car.speed = 254;
+//        car.show();
+//        car.gaz(56);
+//        car.show();
+//        car.brakes(231);
+//        car.show();
     }
 }
 
