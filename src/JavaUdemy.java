@@ -80,9 +80,9 @@ public class JavaUdemy {
 class Car {
     public static void main(String[] args) {
         JavaUdemy car = new JavaUdemy();
-//        car.color = "green";
-//        car.engine = "V8";
-//        car.speed = 254;
+        car.color = "green";
+        car.engine = "V8";
+        car.speed = 254;
 //        car.show();
 //        car.gaz(56);
 //        car.show();
