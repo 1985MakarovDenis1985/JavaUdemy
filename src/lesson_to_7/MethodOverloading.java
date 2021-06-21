@@ -1,20 +1,20 @@
-
+package lesson_to_7;
 // более правильное написание конструкторов c конца в начальную функцию
 
 public class MethodOverloading {
-    String setName;
-    int setId;
-    int setEge;
+   public String setName;
+   public int setId;
+   public int setEge;
 
-    MethodOverloading(int id) {
+    public MethodOverloading(int id) {
         this(null, id, 0);
     }
 
-    MethodOverloading(String name, int id) {
-        this(null, id, 0);
+    public MethodOverloading(String name, int id) {
+        this(name, id, 0);
     }
 
-    MethodOverloading(String name, int id, int age) {
+    public MethodOverloading(String name, int id, int age) {
         setId = id;
         setName = name;
         setEge = age;
@@ -25,10 +25,9 @@ public class MethodOverloading {
 class MethodOverTest {
     public static void main(String[] arg) {
         MethodOverloading emp = new MethodOverloading("Hello", 1);
-        System.out.println(emp.setEge);
+        System.out.println(emp.setName);
     }
 }
-
 
 
 //public class MethodOverloading {
