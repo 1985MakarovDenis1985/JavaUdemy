@@ -57,7 +57,5 @@ public class ForEach {
             b = 0;
         }
         display(dig3);
-
-
     }
 }
